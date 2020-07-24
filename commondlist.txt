@@ -1,5 +1,5 @@
 git reset --hard commit_id# 版本的历史之间穿梭
 git log# 可以查看提交历史，以便确定要回退到哪个版本
 git reflog# 查看命令历史，以便确定要回到未来的哪个版本
-git add filename# 修改或新增文件
-git commit -m "annotation"# 提交
+git add filename# 把文件修改添加到暂存区
+git commit -m "annotation"# 把暂存区的所有内容提交到当前分支
