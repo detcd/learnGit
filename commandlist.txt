@@ -12,6 +12,16 @@ git rm #删除文件并将这一操作发送暂存区
 git push origin master #把本地master分支的最新修改推送至GitHub
 git clone git@github.com:michaelliao/gitskills.git #克隆一个本地库
 git checkout branchname #切换分支
+git switch branchname #切换分支
+git branch #查看分支
 git branch branchname #创建分支
+<<<<<<< HEAD
 git checkout -b branchname #创建并切换分支
 master
+=======
+git switch -c branchname #创建并切换分支
+git checkout -b branchname #创建并切换分支
+git merge branchname #合并某分支到当前分支
+git branch -d branchname #删除分支
+test branch
+>>>>>>> newbranch1
